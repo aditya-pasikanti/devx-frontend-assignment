@@ -1,0 +1,12 @@
+.ecoworld__container_header {
+    background-color: var(--color-font);
+}
+
+.content_container {
+    padding: 4rem;
+}
+
+.content_container h1 {
+    text-align: left;
+    margin: 2rem 0rem;
+}

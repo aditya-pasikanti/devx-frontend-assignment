@@ -1,0 +1,68 @@
+.ecoworld__otherdetails {
+    background-color: var(--color-font);
+    height: 100vh;
+}
+
+.ecoworld__otherdetails .ecoworld__header {
+    height: 50vh;
+}
+
+.otherdetails_info {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 1rem 15rem;
+}
+
+.otherdetails_info p {
+    margin: 1rem;
+    color: white;
+    text-align: center;
+}
+
+.event_experience {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 4rem;
+}
+
+.event_experience .app__video video {
+    padding: 1rem;
+    width: 30rem;
+    height: 20rem;
+    margin: 0;
+}
+
+.event_experience_about {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 2rem;
+    margin-bottom: 0;
+}
+
+.event_experience_about_details {
+    width: 30rem;
+    margin: 5rem 0rem;
+}
+
+.event_experience_about_details img {
+    width: 5rem;
+    padding: 1rem;
+    background-color: var(--color-font);
+    border-radius: 48%;
+}
+
+.event_experience_about_details .event_experience_content {
+    font-size: 18px;
+    margin: 2rem 0;
+    width: 30rem;
+}
+
+.event_experience_about_details div {
+    margin: 2rem 0;
+    font-size: 18px;
+}

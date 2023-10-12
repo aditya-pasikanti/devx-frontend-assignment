@@ -1,0 +1,25 @@
+.ecoworld__header {
+    background-color: var(--color-font);
+    height: 100vh;
+}
+
+.section_explore {
+    color: white;
+    margin: 2rem 4rem;
+}
+
+.heading {
+    display: flex;
+    justify-content: center;
+    /* Center horizontally */
+    align-items: center;
+    /* Center vertically */
+    height: 50vh;
+}
+
+.heading h3 {
+    text-align: center;
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 32px;
+}

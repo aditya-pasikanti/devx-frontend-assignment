@@ -1,0 +1,21 @@
+.accessiblity {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.accessibility_header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 2rem 10rem;
+}
+
+.accessibility_cards {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    /* width: 20rem; */
+    margin: 0rem 8rem;
+}

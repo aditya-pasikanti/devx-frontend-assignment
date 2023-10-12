@@ -1,0 +1,52 @@
+.overview {
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(244, 244, 244);
+    padding: 4rem;
+    position: relative;
+    width: 100%;
+}
+
+.overview_container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 2rem 4rem;
+}
+
+.overview_info {
+    margin-top: -17rem;
+    margin-right: -5rem;
+    z-index: 1;
+    color: var(--color-font);
+}
+
+.overview_info p:nth-child(1) {
+    /* color: #354033; */
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 42px;
+    margin: 0.5rem;
+    font-weight: bold;
+}
+
+.overview_info p:nth-child(2) {
+    /* color: #354033; */
+    width: 18rem;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 28px;
+}
+
+.overview_img img {
+    width: 30rem;
+    height: 30rem;
+    border-radius: 50%;
+    z-index: -1;
+}
+
+.overview_about {
+    margin: 2rem;
+    margin-top: 10rem;
+    width: 18rem;
+    font-size: 20px;
+}

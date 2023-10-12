@@ -1,0 +1,31 @@
+.ecoworld__cards {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 1rem;
+    padding: 1rem;
+    background-color: white;
+    border: 3px solid rgb(228, 227, 227);
+}
+
+.card_image img {
+    width: 30rem;
+}
+
+.card_content {
+    margin: 1rem;
+}
+
+.card_content h3 {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    color: var(--color-font);
+}
+
+.card_content p {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 16px;
+    margin: 0.5rem 0rem;
+    color: var(--color-font);
+}

@@ -1,0 +1,21 @@
+.home_router_container {
+    color: white;
+    margin: 2rem 1rem;
+    cursor: pointer;
+}
+
+.router_image img {
+    width: 20rem;
+    height: 20rem;
+    border-radius: 50%;
+}
+
+.router_content {
+    margin: 1rem;
+    text-align: center;
+}
+
+.router_content h2,
+.router_content p {
+    margin: 1rem 0rem;
+}

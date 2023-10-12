@@ -1,0 +1,56 @@
+.currenttenants {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 4rem 0;
+}
+
+.companies {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(244, 244, 244);
+    margin: 4rem 0;
+}
+
+.companies img {
+    width: 10rem;
+    margin: 0 5rem;
+}
+
+.currenttenants .app__video {
+    width: 40rem;
+    margin: 0rem;
+}
+
+.currenttenants .app__video video {
+    padding: 1rem;
+    height: 40vh;
+}
+
+.currenttenants_about {
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+    margin: 4rem 5rem;
+}
+
+.currenttenants_about_details img {
+    width: 5rem;
+    padding: 1rem;
+    background-color: var(--color-font);
+    border-radius: 48%;
+}
+
+.currenttenants_about_details .currenttenants_content {
+    font-size: 18px;
+    margin: 2rem 0;
+    width: 30rem;
+}
+
+.currenttenants_about_details div {
+    margin: 2rem 0;
+    font-size: 18px;
+}

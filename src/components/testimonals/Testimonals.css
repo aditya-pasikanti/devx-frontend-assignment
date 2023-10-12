@@ -1,0 +1,17 @@
+.ecoworld__testimonals_header {
+    background: url('../../assets//testimonals/testimonals.png');
+    height: 100vh;
+}
+
+.testimonals_cards {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.testimonals_cards_container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

@@ -1,0 +1,24 @@
+.main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.main_header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 6rem;
+    margin-bottom: 2rem;
+}
+
+.main:nth-child(2) {
+    background-color: #354033;
+}
+
+
+/* .beyondwork_details {
+    margin: 2rem;
+} */

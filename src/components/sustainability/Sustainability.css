@@ -1,0 +1,8 @@
+.ecoworld__sustainability_header {
+    background: url('../../assets/sustainability/sustainability.png');
+    height: 100vh;
+}
+
+.ecoworld__sustainability .overview_info p:nth-child(1) {
+    width: 15rem;
+}

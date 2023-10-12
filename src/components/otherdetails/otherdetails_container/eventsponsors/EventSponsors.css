@@ -1,0 +1,12 @@
+.eventsponsors {
+    margin: 45rem 2rem;
+    margin-bottom: 5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.eventsponsors p {
+    cursor: pointer;
+}

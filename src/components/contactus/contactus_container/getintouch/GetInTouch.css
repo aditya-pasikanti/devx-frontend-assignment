@@ -1,0 +1,45 @@
+.getintouch {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 5rem;
+}
+
+.getintouch_form {
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+    margin: 3rem;
+    padding: 1rem;
+    border: 3px solid rgb(228, 227, 227);
+}
+
+.getintouch_form form {
+    margin: 2rem 1rem;
+}
+
+.getintouch_form form div {
+    margin: 1rem;
+}
+
+.getintouch_form input {
+    /* width: 50vh; */
+    margin-top: 2rem;
+    border: none;
+    padding: 0.5rem 10rem 0.5rem 0rem;
+    font-size: 20px;
+    border-bottom: 2px solid var(--color-font);
+    outline: none;
+}
+
+.getintouch_form button {
+    margin: 1rem;
+    padding: 1rem 4rem;
+    border: none;
+    color: white;
+    background-color: var(--color-font);
+    font-size: 20px;
+    border-radius: 30px;
+    cursor: pointer;
+}

@@ -1,0 +1,36 @@
+.moreabout {
+    padding: 8rem;
+    background-color: rgb(244, 244, 244);
+}
+
+.field {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.field form {
+    display: flex;
+    margin: 2rem;
+}
+
+.field form input {
+    margin-top: 2rem;
+    border: none;
+    padding: 0.5rem 10rem 0.5rem 0rem;
+    font-size: 20px;
+    border-bottom: 2px solid var(--color-font);
+    background-color: rgb(244, 244, 244);
+    outline: none;
+}
+
+.field form button {
+    margin: 1rem;
+    padding: 1rem 3rem;
+    border: none;
+    color: white;
+    background-color: var(--color-font);
+    font-size: 20px;
+    border-radius: 40px;
+    cursor: pointer;
+}

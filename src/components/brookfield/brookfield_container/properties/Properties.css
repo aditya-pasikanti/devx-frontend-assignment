@@ -1,0 +1,47 @@
+.brookfield_properties {
+    margin: 5rem;
+}
+
+.properties_image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 2rem;
+}
+
+.properties_image img {
+    padding: 1rem;
+    border: 3px solid rgb(228, 227, 227);
+}
+
+.property_details {
+    margin: 0rem 10rem;
+}
+
+.propertynotes_container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.property_details {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.propertynotes_locations {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 25rem;
+    margin: 5rem;
+    padding: 2rem;
+    border: 3px solid rgb(209, 208, 208);
+}
+
+.propertynotes_locations p {
+    width: 8rem;
+    margin: 1rem 0rem;
+}

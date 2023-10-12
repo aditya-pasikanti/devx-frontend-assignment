@@ -1,0 +1,52 @@
+.ecoworld__events .ecoworld__header {
+    height: 70vh;
+}
+
+.ecoworld__events_buttons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -4.5rem;
+}
+
+.ecoworld__events_buttons button {
+    margin: 1rem;
+    padding: 1rem 2rem;
+    background-color: var(--color-font);
+    font-size: 20px;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.ecoworld__events_buttons button:active {
+    background-color: white;
+    color: black;
+}
+
+.events_card_section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 5rem;
+}
+
+.events_cards {
+    display: flex;
+    margin: 2rem 0rem;
+    margin-bottom: 1rem;
+}
+
+.events_cards img {
+    width: 23rem;
+}
+
+.events_cards .card_content {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.viewall {
+    cursor: pointer;
+}

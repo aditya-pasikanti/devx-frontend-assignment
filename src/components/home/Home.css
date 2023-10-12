@@ -1,0 +1,75 @@
+.ecoworld__home_header {
+    background-color: var(--color-font);
+    height: 100vh;
+}
+
+.home_content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 80vh;
+}
+
+.home_title h1 {
+    color: white;
+    font-size: 64px;
+    font-weight: 500;
+    letter-spacing: 0.2em;
+}
+
+.home_details p {
+    color: white;
+    text-align: center;
+    margin: 1rem;
+    font-size: 20px;
+}
+
+.home_details p:nth-child(2) {
+    font-size: 24px;
+}
+
+.home_image img {
+    width: 100%;
+}
+
+.home_overview .overview {
+    background-color: var(--color-font);
+}
+
+.home_overview p,
+.home_overview .overview_about,
+.home_overview .explore {
+    color: white;
+}
+
+.home_overview .overview_info p:nth-child(1) {
+    width: 20rem;
+}
+
+.home_connectivity {
+    background: url('../../assets//home/connectivity.png');
+    height: 100vh;
+}
+
+.home_connectivity .header h2,
+.home_connectivity .header p {
+    color: white;
+}
+
+.home_connectivity_header .header {
+    padding: 30rem 0rem;
+}
+
+.home_router_section {
+    padding: 3rem;
+    background-color: var(--color-font);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.home_router_section .link {
+    text-decoration: none;
+}

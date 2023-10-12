@@ -1,0 +1,7 @@
+.imagecard img {
+    height: 30rem;
+    margin: 1rem;
+    padding: 1rem;
+    background-color: white;
+    border: 3px solid rgb(228, 227, 227);
+}

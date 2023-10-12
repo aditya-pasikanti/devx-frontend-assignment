@@ -1,0 +1,21 @@
+.casestudy {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 6rem 0rem;
+}
+
+.casestudy_image_cards {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    border: 3px solid rgb(228, 227, 227);
+    margin: 3rem 10rem;
+}
+
+.casestudy_image_cards .imagecard img {
+    width: 100%;
+    margin: 0;
+    padding: 1rem;
+    border: none;
+}

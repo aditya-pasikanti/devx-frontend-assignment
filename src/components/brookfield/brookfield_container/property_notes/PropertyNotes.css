@@ -1,0 +1,16 @@
+.propertynotes {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-direction: column;
+    margin: 1rem;
+}
+
+.propertynotes h1 {
+    font-size: 50px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.propertynotes p {
+    width: 8rem;
+}

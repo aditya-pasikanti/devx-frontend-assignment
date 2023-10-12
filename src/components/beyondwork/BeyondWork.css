@@ -1,0 +1,28 @@
+.ecoworld__beyondwork_headers {
+    background: url('../../assets//beyondwork/beyondwork.png');
+    height: 100vh;
+}
+
+.beyondwork_main {
+    margin: 3rem 0rem;
+}
+
+.beyondwork_thebay {
+    margin-top: 10rem;
+    padding-bottom: 4rem;
+    background-color: #354033;
+}
+
+.beyondwork_thebay h2,
+.beyondwork_thebay p {
+    color: white;
+    margin: 1rem;
+}
+
+.beyondwork_thebay .carousel__images {
+    margin-bottom: -20rem;
+}
+
+.beyondwork_amphitheatre {
+    margin-top: 20rem;
+}

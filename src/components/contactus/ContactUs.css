@@ -1,0 +1,10 @@
+.contactus_cards {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -15rem;
+}
+
+.contactus_cards img {
+    width: 30rem;
+}

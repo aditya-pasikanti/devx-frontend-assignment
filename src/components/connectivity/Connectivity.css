@@ -1,0 +1,10 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.ecoworld__connectivity_header {
+    background: url('../../assets/connectivity/connectivity.png');
+    height: 100vh;
+}

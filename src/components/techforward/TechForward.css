@@ -1,0 +1,19 @@
+.ecoworld__techforward_header {
+    background: url('../../assets/techforward/techforward.png');
+    height: 100vh;
+}
+
+.ecoworld__techforward_cards {
+    margin: 3rem 0;
+}
+
+.ecoworld__techforward_cards h2 {
+    margin: 5rem 0;
+    text-align: center;
+    font-size: 32px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.techforward_card:nth-child(even) .card_left {
+    flex-direction: row-reverse;
+}

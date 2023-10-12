@@ -1,0 +1,12 @@
+.ecoworld__termsandconditions_header {
+    background-color: var(--color-font);
+}
+
+.termsandconditions {
+    padding: 4rem;
+}
+
+.termsandconditions_heading h1 {
+    text-align: left;
+    margin: 2rem 0rem;
+}

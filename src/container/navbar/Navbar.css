@@ -1,0 +1,12 @@
+.ecoworld__navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 4rem;
+}
+
+.ecoworld__navbar h1 {
+    font-family: 'Times New Roman', Times, serif;
+    color: white;
+    letter-spacing: 0.04em;
+}

@@ -1,0 +1,96 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.ecoworld__campus_header {
+    background: url('../../assets/campus/building.png');
+    height: 100vh;
+}
+
+.ecoworld__campus_info {
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(244, 244, 244);
+    padding: 4rem;
+    position: relative;
+    width: 100%;
+}
+
+.info_container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 2rem 4rem;
+}
+
+.campus_info {
+    margin-top: -17rem;
+    margin-right: -5rem;
+    z-index: 1;
+    color: var(--color-font);
+}
+
+.campus_info p:nth-child(1) {
+    /* color: #354033; */
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 42px;
+    margin: 0.5rem;
+    font-weight: bold;
+}
+
+.campus_info p:nth-child(2) {
+    /* color: #354033; */
+    width: 18rem;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 28px;
+}
+
+.campus_img img {
+    width: 30rem;
+    height: 30rem;
+    border-radius: 50%;
+    z-index: -1;
+}
+
+.campus_about {
+    margin: 2rem;
+    margin-top: 10rem;
+    width: 18rem;
+    font-size: 20px;
+}
+
+.campus_card_container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.campus_cards {
+    display: flex;
+    margin: 0rem 12rem;
+    margin-top: -18rem;
+}
+
+.campus_cards .card_img img {
+    width: 30rem;
+}
+
+.arrows {
+    padding: 5px;
+    border: 2px solid rgb(190, 190, 190);
+    border-radius: 5px;
+}
+
+.arrows button {
+    border: none;
+    margin: 3px;
+    padding: 5px 9px;
+    font-size: 28px;
+    background-color: var(--color-font);
+    color: white;
+    cursor: pointer;
+}

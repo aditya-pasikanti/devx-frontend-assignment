@@ -1,0 +1,78 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.workspace {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 2rem;
+    padding: 4rem;
+}
+
+.workspace_header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 2rem;
+}
+
+.workspace_header h2 {
+    font-size: 32px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.workspace_header p {
+    font-size: 18px;
+    margin: 1rem 0rem;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.workspace_carousel_card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.workspace_carousel {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 70rem;
+    padding: 1rem;
+    border: 3px solid rgb(198, 196, 196);
+}
+
+.workspace_carousel img {
+    margin: 1rem;
+}
+
+.carousel-status {
+    display: none;
+}
+
+.workspace_carousel_card_content {
+    margin: 1rem 4rem;
+}
+
+.workspace_carousel_card_content h3 {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 24px;
+    color: var(--color-font);
+}
+
+.workspace_carousel_card_content p {
+    width: 50rem;
+    font-size: 20px;
+    margin: 1rem 0rem;
+}
+
+.arrows {
+    margin: 2rem;
+}

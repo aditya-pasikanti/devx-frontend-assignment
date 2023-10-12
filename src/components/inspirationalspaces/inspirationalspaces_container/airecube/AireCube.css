@@ -1,0 +1,14 @@
+.airecube {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: var(--color-font);
+    padding: 5rem;
+    padding-bottom: 20rem;
+}
+
+.airecube h2,
+.airecube p {
+    color: white;
+}

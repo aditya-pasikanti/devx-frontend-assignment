@@ -1,0 +1,41 @@
+.ecoworld__mediacenter .ecoworld__header {
+    height: 70vh;
+}
+
+.ecoworld__mediacenter_buttons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -4.5rem;
+}
+
+.ecoworld__mediacenter_buttons button {
+    margin: 1rem;
+    padding: 1rem 2rem;
+    background-color: #354033;
+    font-size: 20px;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.ecoworld__mediacenter_buttons button:active {
+    background-color: white;
+    color: black;
+}
+
+.mediacenter_cards {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 4rem;
+}
+
+.mediacenter_cards img {
+    width: 25rem;
+}
+
+.mediacenter_cards .card_content {
+    display: flex;
+    flex-direction: column-reverse;
+}

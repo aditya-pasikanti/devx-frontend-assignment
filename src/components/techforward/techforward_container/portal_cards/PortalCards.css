@@ -1,0 +1,19 @@
+.portal__cards {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 1rem;
+}
+
+.portal__cards img {
+    padding: 1rem;
+    background-color: var(--color-font);
+    border-radius: 47%;
+}
+
+.portal__cards p {
+    margin: 0.5rem;
+    text-align: center;
+    width: 15rem;
+}

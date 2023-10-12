@@ -1,0 +1,42 @@
+.testimonal_card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border: 3px solid rgb(228, 227, 227);
+    margin: 1rem;
+}
+
+.testimonal_card_image {
+    height: 20rem;
+    width: 25rem;
+    margin: 1rem;
+}
+
+.testimonal_card_details {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 2rem 2rem 3rem 2rem;
+    /* padding: 4rem; */
+}
+
+.testimonal_card_details p {
+    width: 25rem;
+}
+
+.testimonal_card_details p:nth-child(2) {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    margin: 0rem 2rem;
+}
+
+.testimonal_card_details img {
+    width: 3rem;
+    padding: 0.5rem;
+    background-color: var(--color-font);
+    border-radius: 50%;
+}

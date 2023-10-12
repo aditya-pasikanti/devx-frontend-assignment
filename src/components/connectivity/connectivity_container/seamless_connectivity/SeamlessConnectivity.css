@@ -1,0 +1,38 @@
+.seamless_connectivity {
+    margin: 5rem 0rem;
+}
+
+.seamless_connectivity_container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 1rem 10rem;
+}
+
+.seamless_connectivity_location {
+    border: 3px solid rgb(198, 196, 196);
+    padding: 2rem;
+}
+
+.seamless_connectivity_location img {
+    width: 40rem;
+}
+
+.seamless_connectivity_details {
+    width: 40rem;
+    margin: 2rem;
+    padding: 2rem;
+}
+
+.seamless_connectivity_details .locations {
+    margin: 1.5rem;
+}
+
+.locations span {
+    font-weight: 700;
+}
+
+.locations span,
+.locations p {
+    margin: 0rem 1rem;
+}
